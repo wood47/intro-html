@@ -29,7 +29,8 @@ h1 {
     color: #ffce00;
     font-size: 48pt;
     font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;   
+    text-transform: uppercase; 
+    text-align: center;
 }
 
 h2 {
@@ -44,6 +45,7 @@ h2 {
      
 p {
   font-size: 14px;
+  text-align center;
 }
 
 }
