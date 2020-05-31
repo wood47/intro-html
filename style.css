@@ -5,8 +5,7 @@ body {
     background: #FFF;
     font-family: 'Cardo', serif;
     color: #111;
-    align-items: center;
-    background-repeat: no-repeat;
+    text-align: center;
 }
 
 body:after {
@@ -20,9 +19,21 @@ body:after {
     font-size: 10pt;
 }
 
+div, h1, h2, p {
+		margin: 0;
+		padding: 0;
+		}
+	
+		#poem { 
+			margin: auto;
+			padding: 20px 0;
+			text-align: left;
+			width: 390px;
+			}
+
 h1 {
     color: #ffce00;
-    font-size: 48pt;
+    font-size: 34pt;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase; 
     text-align: center;
@@ -32,7 +43,7 @@ h1 {
 
 h2 {
     color: #111;
-    font-size: 30pt;
+    font-size: 18pt;
     font-family: 'Cardo', serif;
     font-style: italic;
     text-align: center;
