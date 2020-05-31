@@ -68,14 +68,14 @@ img {
     margin-right: auto;
 }
 
-ul {
+ol {
     list-style-type: none;
     width: 200px;
     font-size: 14pt;
     text-align: left;
 } 
 
-ul:before {
+ol:before {
     content: 'Quick links';
     font-family: 'Permanent Marker', cursive;
     color: rgb(28, 33, 104);
