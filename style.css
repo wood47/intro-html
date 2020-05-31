@@ -3,7 +3,7 @@
 
 body {
     background: #484d5c;
-    font-family: 'Oswald', serif;
+    font-family: 'Cardo', serif;
     color: #c0ccd4;
     display: grid;
     align-items: center;
@@ -30,6 +30,22 @@ h1 {
     font-size: 48pt;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;   
+}
+
+h2 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: #ffce00;
+    font-size: 30pt;
+    font-family: 'Cardo', serif;
+    font-style: italic;
+}
+     
+p {
+  font-size: 14px;
+}
+
 }
 
 img {
