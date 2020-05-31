@@ -43,17 +43,16 @@ h1 {
 
 h2 {
     color: #111;
-    font-size: 14pt;
+    font-weight: normal;
+    font-size: 15pt;
     font-family: 'Cardo', serif;
-    font-style: italic;
     text-align: center;
-    font-style: italic;
     margin-bottom: 30px;
 }
      
 p {
-	line-height: 1.5;
-	margin-bottom: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 img {
@@ -66,14 +65,13 @@ img {
     margin-right: auto;
 }
 
-ol {
+ul {
     list-style-type: none;
     width: 200px;
     font-size: 14pt;
-    text-align: left;
 } 
 
-ol:before {
+ul:before {
     content: 'Quick links';
     font-family: 'Permanent Marker', cursive;
     color: rgb(28, 33, 104);
@@ -84,6 +82,7 @@ ol:before {
 
 li {
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a {
