@@ -53,7 +53,7 @@ h2 {
      
 p {
     font-size: 14px;
-    text-align center;
+    text-align: center;
     line-height: 1.5;
     margin-bottom: 15px;
 }
@@ -76,8 +76,9 @@ ul {
 } 
 
 ul:before {
+    text-align: center;
     content: 'Quick links';
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Cardo', serif;
     color: rgb(28, 33, 104);
     background-color: rgba(245, 233, 149, 0.5);
     font-size: 18pt;
