@@ -2,9 +2,9 @@
 
 
 body {
-    background: #484d5c;
+    background: #FFF;
     font-family: 'Cardo', serif;
-    color: #c0ccd4;
+    color: #111;
     display: grid;
     align-items: center;
     grid-template-columns: 300px auto;
@@ -31,23 +31,28 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase; 
     text-align: center;
+    line-height: 1.2;
+	margin-bottom: 10px;
 }
 
 h2 {
     grid-row-start: 1;
     grid-column-start: 1;
     grid-column-end: 3;
-    color: #ffce00;
+    color: #111;
     font-size: 30pt;
     font-family: 'Cardo', serif;
     font-style: italic;
+    text-align: center;
+    font-style: italic;
+	margin-bottom: 30px;
 }
      
 p {
-  font-size: 14px;
-  text-align center;
-}
-
+    font-size: 14px;
+    text-align center;
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 img {
