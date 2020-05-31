@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-div, h1, h2, p {
+div, h1, h2, p, ul {
 	margin: 0;
 	padding: 0;
 }
@@ -43,6 +43,12 @@ p {
     line-height: 1.5;
     margin-bottom: 15px;
 }
+
+ul {
+    list-style-type: none;
+    width: 200px;
+    font-size: 14pt;
+} 
 
 img {
     max-width: 750px;
