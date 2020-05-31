@@ -57,17 +57,22 @@ p {
     line-height: 1.5;
     margin-bottom: 15px;
 }
+img {
 
+}
 img {
     max-width: 750px;
     max-height: 500px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
-    list-style-type: none;
+    text-align: center;
+    list-style-type: inside;
     width: 200px;
     font-size: 14pt;
 } 
