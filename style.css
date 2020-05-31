@@ -3,9 +3,6 @@
 
 body {
     background: #484d5c;
-    background-image: url('background.jpg');
-    background-size: cover;
-    padding: 100px;
     font-family: 'Cardo', serif;
     h1, h2, h3, h4, h5, h6 {
  font-family: 'Oswald', sans-serif;
